@@ -6,13 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hlavný nadpis</h1>
+    <h1>Obchod</h1>
     <?php
-       $data = array("desat" => 10, "dvadsat" => 20, "jedna" => 1);
-       foreach($data as $str => $cislo) {
-        echo "Cast pola: $str je cislo $cislo<br>";
+       $veci = array("Jablko" => 5, "Banan" => 6, "Rozok" => 2);
+       foreach($veci as $polozka => $cena) {
+        echo "Polozka $polozka stoji $cena eur.<br>";
        }
-       // cosi sa zmenilo
     ?>
 </body>
 </html>
