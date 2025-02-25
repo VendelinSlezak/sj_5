@@ -12,6 +12,7 @@
        foreach($data as $str => $cislo) {
         echo "Cast pola: $str je cislo $cislo<br>";
        }
+       // cosi sa zmenilo
     ?>
 </body>
 </html>
